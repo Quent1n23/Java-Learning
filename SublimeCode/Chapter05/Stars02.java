@@ -25,9 +25,11 @@ public class Stars02{
 		*/
 
 	  	//打印空心金字塔
+
+	  	int totalLevel = 20;
 		int i = 1;
-		while(i <= 5){//每层,层数为奇数
-			for(int k = 1; k <= 5-i;k++ ){//打印空格
+		while(i <= totalLevel){//每层,层数为奇数
+			for(int k = 1; k <= totalLevel-i;k++ ){//打印空格
 				System.out.print(" ");
 			}
 			int j = 1;
@@ -55,13 +57,23 @@ public class Stars02{
 		 * *
 		  *
 		*/
-		i--;//5
+		i -= 2;//4
 
 		while(i >= 1){
-			for(int k = 5; k > 5+1-i;k-- ){//打印空格 4 3 2 1 
+			for(int k = 1;k <= totalLevel-i ;k++){
 				System.out.print(" ");
 			}
-			System.out.println("*");
+
+			int j = 1;
+			while(j<=2*i-1){//打印每行
+				if(j==1 || j==2*i-1){
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+				j++;
+			}
+			System.out.println();
 			i--;
 		}
 	}
