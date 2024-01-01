@@ -11,7 +11,7 @@ public class Homework07{
 		int temp = 0;
 		for(int i = 0; i < arr.length-1; i++){//外层循环，几轮比较
 			for(int j = 0; j < arr.length-1-i; j++){//每轮的比较次数
-				if(arr[j] > arr[j+1]){
+				if(arr[j] > arr[j+1]){//大的排到最后面，所以从前面开始，后面不用管
 					temp = arr[j];
 					arr[j] = arr[j+1];
 					arr[j+1] = temp;
