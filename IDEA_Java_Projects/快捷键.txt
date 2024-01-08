@@ -1,0 +1,31 @@
+删除当前行(改) 		Ctrl + D
+
+复制当前行(改) 		Ctrl + Alt + 向下光标
+
+补全代码   		Alt + /
+
+自动导入类(勾)		Alt + Enter
+
+快速格式化 		Ctrl + Alt + L 
+
+快速运行程序(改)		Alt + R
+
+生成构造器等		Alt + Insert
+
+查看类的层级关系		Ctrl + H
+
+定位方法			Ctrl + B
+
+自动分配变量名		.var 回车    new Scanner(System.in).var   回车
+
+
+模板
+file -> settings -> editor -> Live template ->
+main
+
+sout	System.out.println();
+
+fori	for (int i = 0; i < ; i++)
+
+
+
