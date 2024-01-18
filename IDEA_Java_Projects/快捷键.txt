@@ -18,6 +18,13 @@
 
 自动分配变量名		.var 回车    new Scanner(System.in).var   回车
 
+显示所有快捷键 		Ctrl + J
+
+迭代器while循环		itit
+
+增强for循环		I
+
+
 
 模板
 file -> settings -> editor -> Live template ->
