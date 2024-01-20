@@ -5,6 +5,9 @@ F9		resume，执行到下一个断点
 
 配置
 Setting-->Build,Execution,Deployment-->Debugger-->Stepping
-
 java.*
 javax.*	取消勾选
+
+详细信息
+Setting-->Build,Execution,Deployment-->Debugger-->Data Views-->Java
+取消勾选--Enable alternative view......
