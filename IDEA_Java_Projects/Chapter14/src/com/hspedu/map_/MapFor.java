@@ -51,7 +51,7 @@ public class MapFor {
         }
 
         //第三组: 通过EntrySet 来获取 k-y
-        Set entrySet = map.entrySet();// EntrySet<Map.Entry<K,V>>
+        Set entrySet = map.entrySet();// Set集合中 放的是 EntrySet<Map.Entry<K,V>>
         //调用 Map接口 中的  Set<Map.Entry<K, V>> entrySet();
         //返回的 是 Set<Map.Entry<K, V>>------Set集合,里面存放Map.Entry<K, V>
         //System.out.println(entrySet.getClass());//class java.util.HashMap$EntrySet
