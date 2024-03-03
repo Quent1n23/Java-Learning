@@ -7,6 +7,8 @@ import java.util.regex.Pattern;
  * @author 丁聪
  * @version 1.0
  * 反向引用
+ * 内部反向引用 \\分组号
+ * 外部反向引用 $分组号
  */
 public class RegExp12 {
     public static void main(String[] args) {
